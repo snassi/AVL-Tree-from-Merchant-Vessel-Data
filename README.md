@@ -1,2 +1,16 @@
-# AVL-Tree-from-Merchant-Vessel-Data
-This AVL Tree works following these conditions: - imports information from a .txt file that has this format:        - has 0&lt; x &lt;= 200 amount of rows        - each row has 25 columns separated by a comma        - the first column of all rows past row 2 has a country name - each row is uploaded to a countainer class that stores each row - each element of the container class is uploaded to a liked list class that is parented by the templated MasterCell&lt;DT1,DT2> class - each element of the MasterCell linkedlist class is uploaded to the HashTable&lt;DT1,DT2> class - each HashNode of the HashTable is uploaded to the self-balancing AVL Tree clas - the AVL tree has an insertion and deletion method - each class is templated
+# AVL Tree from Merchant Vessel Data
+
+This AVL Tree imports information from ``input.csv`` file with this format:
+ - 200 rows (``x = 200``)
+ - each row has 25 columns
+ - the first column of all rows past row 2 has a country name 
+
+Algorithm / procedure:
+ - each row is uploaded to a countainer class that stores each row
+ - each element of the container class is uploaded to a liked list class that is parented by the templated ``MasterCell`` class 
+ - each element of the ``MasterCell`` linkedlist class is uploaded to the ``HashTabl`` class 
+ - each HashNode of the ``HashTable`` is uploaded to the self-balancing AVL Tree class
+
+Features:
+ - the AVL tree has an insertion and deletion method 
+ - each class is templated
