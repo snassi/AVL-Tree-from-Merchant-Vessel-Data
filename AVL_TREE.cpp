@@ -1121,7 +1121,7 @@ int main()
 	
 	/*
 	*/
-	test.open("input.txt");
+	test.open("input.csv");
 	while (!test.eof()) {
 		getline(test, fore);
 		countChoc++;
@@ -1131,7 +1131,7 @@ int main()
 	MasterCell<int, string*> MC(200);
 	container<string*> CON(countChoc);
 
-	actual.open("input.txt");
+	actual.open("input.csv");
 	while (!actual.eof()) {
 		getline(actual, read);
 		valueHolder<string*>* eel = new valueHolder<string*>();
